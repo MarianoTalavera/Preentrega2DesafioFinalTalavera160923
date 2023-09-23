@@ -1,5 +1,6 @@
 import express from 'express';
-import mongoose from "mongoose";
+import mongoose, { connect } from "mongoose";
+import connectToDB from "src/app.js"
 
 const app = express()
 const PORT = 8080
